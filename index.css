@@ -1,0 +1,80 @@
+body{
+        font-family: "Kanit", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        text-align: center;
+        background: linear-gradient(#333366,pink);
+        color :#ffffff ;
+        text-shadow: 0px 0px 1px black;
+}     
+#img{
+      border-radius: 50%;
+      width: 200px;
+      border: 5px solid #C0C0C0 ;
+       
+}
+.bday-date{
+    background-color: #C0C0C0;
+    border-radius: 5px;
+
+}
+#bday-age{
+    background-color:#C0C0C0 ;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+  
+}     
+#header{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items:center;
+}    
+.gift-image{
+        width: 250px;
+        border: 6px solid white;
+        border-radius: 10px;
+        margin: auto;
+        height: 250px;
+        background-image:url("gif.webp");
+        background-size: cover;
+}
+#gift-image-happy:hover{
+        background-image:url(dance.webp);
+}  
+    
+#gift-image-hot:hover{
+        background-image:url(badass.webp) ;
+}
+gift-title{
+ margin-bottom:10px;
+}
+.gift-hint{
+  margin-top: 0px;
+}
+#smart:hover{
+    background-image:url(clap.webp) ;
+}
+#badder:hover{
+    background-image:url(smart.webp) ;
+}
+#cheers:hover{
+    background-image:url(thumbs.webp) ;
+}
+#cheers{
+    height:200px ;
+   
+}
+.link{
+        margin-top: 50px;
+       color:#ffffff  ;
+       width: 400px;
+       margin: 40px auto 20px auto;
+       font-style: italic;   
+}      
+a{
+          color:#ffffff  ;  
+}
+    
+    
